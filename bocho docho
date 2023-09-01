@@ -47,7 +47,7 @@
         Auto_Farm_Boss = false;
         Auto_Quest_Boss = true;
         Auto_Farm_All_Boss = false;
-        Select_Distance = 20;
+        Select_Distance = 30;
         Select_Health = 20;
         Select_Mode_Farm = "Normal Mode";
         Select_Bring_Mob_Mode = "Bring Mob [Normal]";
@@ -1779,9 +1779,9 @@ end
     local Wait = library.subs.Wait
     
     local PepsisWorld = library:CreateWindow({
-        Name = "Bin AW QUY - Main",
+        Name = "Light Hub - Main",
         Themeable = {
-        Info = ""
+        Info = "https://cdn.sforum.vn/sforum/wp-content/uploads/2023/04/hinh-nen-dien-thoai-4k-1-1.jpg"
         }
     })
     
@@ -8691,3 +8691,4 @@ end)
             end
         end
     end)
+    
